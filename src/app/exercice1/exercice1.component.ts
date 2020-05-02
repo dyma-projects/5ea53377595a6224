@@ -13,4 +13,9 @@ export class Exercice1Component implements OnInit {
   ngOnInit() {
   }
 
+  public changeCompteur(event){
+    console.log(event);
+    this.compteur=event;
+  }
+
 }
